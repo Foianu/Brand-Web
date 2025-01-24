@@ -92,6 +92,7 @@ main {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    align-items: center;
     padding: 3rem 0 3rem 0;
 }
 
@@ -150,6 +151,21 @@ main {
     font-weight: bold;
 }
 
+.contact-btn {
+    background: #7291FC;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    padding: 2rem 4rem 2rem 4rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-btn:hover {
+    background: #fff;
+    color: #181818;
+    font-weight: bold;
+}
 
 
 
@@ -323,11 +339,15 @@ main {
             gap: 1rem;
         }
 
+        .cards {
+            margin: 0 0 3rem 0;
+        }
+
             .content {
                 background: #181818;
                 padding: 2rem;
                 font-size: 16px;
-                margin: auto auto 3rem auto;
+                margin: auto;
             }
 
                 .content p {
@@ -339,6 +359,8 @@ main {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                    padding: 2rem 0 6rem 0;
+
                 }
 
                     .card, .title, h1 {
@@ -353,14 +375,11 @@ main {
                         gap: 1rem;
                     }
 
-                    .cards-text {
-                        color: #fff;
-                        margin: 2rem auto 3rem auto;
-                    }
 
-                    .cards-text li {
-                        font-size: clamp(0.5rem, 0.7rem + 0.7vw, 1rem);
-                    }
+
+.summary {
+    padding: 1rem 0 0 0;
+}                      
 
 
     /* specialization */
@@ -406,7 +425,7 @@ span {
                 max-width: 1400px;
                 min-height: 600px;
                 margin: 0 auto 3rem auto;
-                font-size: 10rem;
+                font-size: 7rem;
                 color: #fff;
 
                 background: #181818;
@@ -419,14 +438,14 @@ span {
             }
 
                 .image-1:hover {
-                    background-image: url("../img/uiux.jpg");
+                    background-image: url("../img/3D.jpg");
                     background-repeat: no-repeat, repeat;
                     background-size: cover;
                     background-position: center;
 
                     filter: none;
                     transform: scale(1.1);
-                    font-size: 6rem;
+                    font-size: 5rem;
                 }
 
             .image-2 {
@@ -434,7 +453,7 @@ span {
                 max-width: 1400px;
                 min-height: 600px;
                 margin: 0 auto 3rem auto;
-                font-size: 10rem;
+                font-size: 7rem;
                 color: #fff;
 
                 background: #181818;
@@ -447,14 +466,14 @@ span {
             }
 
                 .image-2:hover {
-                    background-image: url("../img/brand.jpg");
+                    background-image: url("../img/GD.jpg");
                     background-repeat: no-repeat, repeat;
                     background-size: cover;
                     background-position: center;
 
                     filter: none;
                     transform: scale(1.1);
-                    font-size: 6rem;
+                    font-size: 5rem;
                 }
 
             .image-3 {
@@ -462,7 +481,7 @@ span {
                 max-width: 1400px;
                 min-height: 600px;
                 margin: 0 auto 3rem auto;
-                font-size: 10rem;
+                font-size: 7rem;
                 color: #fff;
 
                 background: #181818;
@@ -475,28 +494,54 @@ span {
             }
 
                 .image-3:hover {
-                    background-image: url("../img/3D.jpg");
+                    background-image: url("../img/illustration.jpg");
                     background-repeat: no-repeat, repeat;
                     background-size: cover;
                     background-position: center;
 
                     filter: none;
                     transform: scale(1.1);
-                    font-size: 6rem;
+                    font-size: 5rem;
                 }
 
-  
+            .image-4 {
+                width: 100%;
+                max-width: 1400px;
+                min-height: 600px;
+                margin: 0 auto 3rem auto;
+                font-size: 7rem;
+                color: #fff;
+    
+                background: #181818;
+    
+                filter: grayscale(100%);
+                transform: scale(1);
+                transition: .5s ease;
+                border: none;
+                cursor: pointer;
+                }
+    
+                .image-4:hover {
+                    background-image: url("../img/uiux.jpg");
+                    background-repeat: no-repeat, repeat;
+                    background-size: cover;
+                    background-position: center;
+    
+                    filter: none;
+                    transform: scale(1.1);
+                    font-size: 5rem;
+                }
 
 
     /* design-process */
-
+   
     .design-container {
         display: flex;
         justify-content: space-between;
         margin-inline: auto;
         gap: 2rem;
         margin: 14rem auto 1rem auto;
-    }
+    } 
 
         .design-cards {
             width: 90%;
@@ -509,16 +554,21 @@ span {
             gap: 1rem;
         }
 
-        .card {
-            display: flex;
-            align-items: center;
-            margin: 2rem 0 0 0;
-        }
 
-        .category {
-            font-size: clamp(3rem, 6rem + 6vw, 1rem);
-            gap: 1rem;
-        }
+            .card-design {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 2rem 0 2rem 0;
+            }
+
+            .category {
+                font-size: clamp(3rem, 6rem + 6vw, 1rem);
+                gap: 1rem;
+            }
+
+
+
 
 
 
@@ -601,6 +651,7 @@ span {
                 padding: 1rem 3rem 1rem 3rem;
                 cursor: pointer;
                 flex-grow: 1;
+                
             }
     
                 .projects-btn:hover {
@@ -608,15 +659,11 @@ span {
                     color: #fff;
                 }
 
-            .discover {
-                margin: 2rem auto 2rem auto;
-            }
-
                 .list-discover {
                     color: #646464;
-                    margin: 1rem;
+                    margin: 1rem auto 2rem auto;
                 } 
-
+ 
 
 
     /* contact */
@@ -648,7 +695,7 @@ span {
             margin: 0 auto;
         }
 
-        .step-1, .step-2, .step-3 {
+        .step-1, .step-3 {
             background: #181818;
             padding: 2rem;
             font-size: 16px;
@@ -664,24 +711,10 @@ span {
             padding: 1rem 0 1rem 0;
         }
 
-        .step-2 .text .title-1 h1 {
-            gap: 1rem;
-            color: #646464;
-            font-size: clamp(3rem, 2rem + 2vw, 1rem);
-            -webkit-text-stroke: 0.5px #646464;
-            padding: 1rem 0 1rem 0;
-
-        }
-
         .step-3 .text .title-1 h1 {
             gap: 1rem;
             color: #fff;
             font-size: clamp(3rem, 2rem + 2vw, 1rem);
-        }
-
-        .step-2 .text .title-1 p, 
-        .step-2 .text .title-2 p {
-            color: #646464;
         }
 
         .title-1 .output {
@@ -691,10 +724,6 @@ span {
 
         .title-1 p {
             color: #fff;
-        }
-
-        .title-2 {
-            margin: 2rem 0 0 0;
         }
    
             .order .contents {
@@ -710,9 +739,7 @@ span {
             }
 
 
-        .step-3 .title-2 p {
-            color: #646464;
-        }
+
 
 
 

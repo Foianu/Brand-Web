@@ -1,7 +1,7 @@
 let submitContactForm = function(event) {
     event.preventDefault()
 
-    let url = "https://docs.google.com/forms/d/e/1FAIpQLSfLROb3uVGDKawTIomeqHnT5sACd1GCsWaG_aURxVD0kRD7kw/formResponse";
+    let url = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdMOJM2qpFVSvKoyNkhPx1AtsGN_283A_fiof7arkQSz_uffg/formResponse";
 
     
 
@@ -26,7 +26,7 @@ let submitContactForm = function(event) {
             document.getElementById("ContactFormButton").disabled = false;
         }, 2000);
 
-    }).catch(function () {
-        console.log("error")
+    }).catch(function (e) {
+        console.log(e)
     })
 }

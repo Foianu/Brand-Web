@@ -166,6 +166,7 @@ body {
     margin: 6rem auto 6rem auto;
 }
 
+
     /* steps */
 
     .steps .title {
@@ -247,6 +248,8 @@ body {
                 }
 
 
+
+
 /* source files */
 
 .source {
@@ -291,7 +294,7 @@ body {
 .image-1 {
     width: 100%;
     max-width: 1400px;
-    min-height: 600px;
+    min-height: 800px;
     margin: 3rem auto 3rem auto;
 
     background-image: url("../img/uiux.jpg");
@@ -309,7 +312,6 @@ body {
         filter: grayscale(100%);
         transform: scale(1.1);
     }
-
 
 
 

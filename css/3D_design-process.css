@@ -282,7 +282,7 @@ body {
 .image-1 {
     width: 100%;
     max-width: 1400px;
-    min-height: 600px;
+    min-height: 800px;
     margin: 3rem auto 3rem auto;
 
     background-image: url("../img/3D.jpg");
