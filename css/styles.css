@@ -302,12 +302,8 @@ main {
 
 /* icons */
 
-#linkedin_white-icon_svg:hover {
-    fill: #111;
-}
-
-#behance_white-icon_svg:hover {
-    fill: #111;
+#bg:hover {
+    fill: #7291FC;
 }
 
 
@@ -494,7 +490,7 @@ span {
             }
 
                 .image-3:hover {
-                    background-image: url("../img/illustration.jpg");
+                    background-image: url("../img/PD.jpg");
                     background-repeat: no-repeat, repeat;
                     background-size: cover;
                     background-position: center;

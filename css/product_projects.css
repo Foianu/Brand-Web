@@ -76,6 +76,20 @@ body {
             }
         
 
+/* icons */
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+#bg:hover {
+    fill: #7291FC;
+}
+
+
 /* projects */
  
 
@@ -182,11 +196,6 @@ footer .container {
                 color: #646464;
                 padding: 0 1rem 0 1rem;
             }
-
-        .footer-social-icons {
-            display: flex;
-            gap: 2rem;
-        }
 
 
     .font-source {
