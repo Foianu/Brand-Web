@@ -310,6 +310,9 @@ body {
         }
 
 
+.steps-about {
+    display:grid;
+}
 
 
 
