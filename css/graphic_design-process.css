@@ -72,6 +72,7 @@ body {
         -webkit-text-stroke: 0.5px #fff;  
     }
 
+
     .subtitle p {
         font-weight: 300;
     }
@@ -87,6 +88,11 @@ body {
 
     .brand h1 {
         font-size: clamp(8rem, 6rem + 6vw, 10rem);
+        color: #fff;
+    }
+
+    .brand h3 {
+        font-size: clamp(6rem, 5rem + 5vw, 8rem);
         color: #fff;
     }
 
@@ -109,9 +115,15 @@ body {
 
     .process .order {
         display: flex;
-        justify-content: flex-start;
-        gap: 4rem;
+        justify-content: space-between;
         margin: 8rem auto 8rem auto;
+    }
+
+    .process .order-brand {
+        display: flex;
+        justify-content: flex-start;
+        margin: 8rem auto 8rem auto;
+        gap: 4rem;
     }
 
     .contents {
@@ -180,7 +192,7 @@ body {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        margin: 10rem auto 6rem auto;
+        margin: 10rem ;
     }
 
         .steps-brand .title-1 h1 {
@@ -189,6 +201,10 @@ body {
             -webkit-text-stroke: 0.5px #fff;  
         }
 
+.column {
+    display: flex;
+    justify-content: center;
+}
 
 .steps-1 {
     max-width: 1400px;
@@ -208,32 +224,21 @@ body {
                 -webkit-text-stroke: 0.5px #fff;  
             }
 
-
-
-        .description-brand {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
             .content-1 {
                 justify-content: center;
                 align-items: center;
-                margin: 0 auto 0 auto;
-
+                margin: 6rem auto 6rem auto; /* space between arrow-down */
             }
 
                 .title-content {
-                    display: flex;
                     justify-content: center;
                     align-items: center;
-                    margin: 3rem auto 3rem auto; 
+                    padding: 0 0 3rem 0;
                 }
 
                     .content-1 p {
                         text-align: center; 
                         color: #646464;
-                        margin: 1rem auto 0 auto; 
                     }
 
                     .white {
@@ -300,9 +305,7 @@ body {
             padding: 0 0 3rem 0;
         }
 
-        .info img {
-            padding: 4rem 0 0 0;
-        }
+
         
         .content p {
             text-align: center; 
