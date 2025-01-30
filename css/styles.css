@@ -118,7 +118,8 @@ main {
 
 .container-3 {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
     text-align: center;
     gap: 2rem;
     padding: 4rem 0 4rem 0;
