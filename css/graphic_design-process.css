@@ -383,6 +383,28 @@ body {
         transform: scale(1.1);
     }
 
+    .image-2 {
+        width: 100%;
+        max-width: 1400px;
+        min-height: 800px;
+        margin: 3rem auto 3rem auto;
+    
+        background-image: url("../img/ILL.jpg");
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+        background-position: center;
+    
+        transform: scale(1);
+        transition: .5s ease;
+        border: none;
+        cursor: pointer;
+    }
+    
+        .image-2:hover {
+            filter: grayscale(100%);
+            transform: scale(1.1);
+        }
+
 
 
 
