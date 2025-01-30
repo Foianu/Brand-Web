@@ -15,6 +15,16 @@ body {
     color: #fff;
 }
 
+.illustration-section {
+    max-width: 1400px;
+    margin-inline: auto;
+}
+
+.illustration-section {
+    max-width: 1400px;
+    margin-inline: auto;
+}
+
 .container {
     max-width: 1400px;
     margin-inline: auto;
@@ -86,7 +96,6 @@ body {
     margin: 8rem auto 0 auto;
 }
 
-/*
     .brand h1 {
         font-size: clamp(8rem, 6rem + 6vw, 10rem);
         color: #fff;
@@ -96,7 +105,7 @@ body {
         font-size: clamp(6rem, 5rem + 5vw, 8rem);
         color: #fff;
     }
-*/
+
     .title {
         margin: 0 auto 2rem auto;
     }
