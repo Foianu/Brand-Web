@@ -101,7 +101,7 @@ body {
     }
 
     .text {
-        margin: 0 auto 6rem auto;
+        margin: 0 auto 2rem auto;
     }
 
 
@@ -156,7 +156,7 @@ body {
 
     display: flex;
     justify-content: flex-end;
-    margin: 4rem auto 6rem auto;
+    margin: 6rem auto 6rem auto;
 }
 
 
