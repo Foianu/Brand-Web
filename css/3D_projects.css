@@ -54,7 +54,7 @@ body {
 
 .container-cover {
     max-width: 1300px;
-    margin-inline: 10%;
+    margin-inline: auto;
 }
         
             .subtitle {
