@@ -8,7 +8,6 @@
     font-weight: normal;
     font-style: normal;
     letter-spacing: 0.1rem;
-
 }
 
 
@@ -17,6 +16,10 @@ body {
     color: #111;
 }
 
+section {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
 
 .container {
     max-width: 1200px;
@@ -106,7 +109,7 @@ footer {
     margin: 1rem 0 1rem 0;
 }
 
-footer .container-footer {
+footer .container {
     width: 90%;
     margin: 0 auto 0 auto;
     font-weight: 400;
@@ -116,7 +119,6 @@ footer .container-footer {
         display: flex;
         justify-content: space-between;
         margin: 2rem 0 2rem 0;
-        font-size: 14px;
         flex-wrap: wrap;
         gap: 1rem;
 
@@ -126,7 +128,6 @@ footer .container-footer {
         .privacy {  
             display: flex;
             color: #646464;
-            font-size: 14px;
             gap: 2rem;
             line-height: 1.6rem;
             text-align: end;
@@ -142,7 +143,7 @@ footer .container-footer {
         .contact-info {  
             display: flex;
             color: #646464;
-            font-size: 14px;
+            font-size: 18px;
             gap: 2rem;
             line-height: 1.6rem;
             cursor: pointer;
@@ -165,18 +166,18 @@ footer .container-footer {
 
 
     .font-source {
-        font-size: 12px;
         display: flex;
         justify-content: end;
+        font-size: 14px;
     }
 
-a {
+    .font-source a {
         text-decoration: none;
         color: #646464;
 
     }
 
-a:hover {
+    .font-source a:hover {
         color: #7291FC;
     }
 

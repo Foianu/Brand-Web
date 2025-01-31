@@ -305,7 +305,14 @@ body {
     align-items: center;
 }
 
+.column {
+    display: flex;
+    max-width: 1400px;
+    margin-inline: auto;
+}
+
 .description-brand {
+
     justify-content: center;
     align-items: center;
     margin: 0 auto;
