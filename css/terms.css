@@ -26,8 +26,19 @@ section {
     margin-inline: auto;
     color: #111;
     padding: 8rem 0 2rem 0;
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
+
+.container a {
+    color: #646464;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: #7291FC;
+    text-decoration: none;
+}
+
 
 
 .title {

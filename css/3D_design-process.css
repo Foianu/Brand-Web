@@ -105,14 +105,12 @@ body {
 .process {
     max-width: 1400px;
     margin: 0 auto;
-    background-color: blue;
 }
 
     .process .order {
         display: flex;
         justify-content: space-between;
         margin: 8rem auto 8rem auto;
-
     }
 
     .process-1 .order {
