@@ -20,7 +20,7 @@ body {
     margin-inline: auto;
 }
 
-.illustration-section {
+.brand-section {
     max-width: 1400px;
     margin-inline: auto;
 }
@@ -118,23 +118,30 @@ body {
 /* process */
 
 
-.process {
+.illustration-section .process {
     max-width: 1400px;
     margin: 0 auto;
 }
 
-    .process .order {
+    .illustration-section .process .order {
         display: flex;
         justify-content: space-between;
         margin: 8rem auto 8rem auto;
     }
 
-    .process .order-brand {
+.brand-section .process {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+    .brand-section .process .order {
         display: flex;
         justify-content: flex-start;
         margin: 8rem auto 8rem auto;
         gap: 4rem;
     }
+
+
 
     .contents {
         text-align: center; 
@@ -173,43 +180,24 @@ body {
 
     /* steps */
 
-.steps-brand {
-    max-width: 1400px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-    .steps-brand .title {
+    .steps .title {
         max-width: 1400px;
         margin: 0 auto;
-
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        margin: 20rem auto 0 auto;
+        margin: 20rem auto 10rem auto;
+        background-color: red;
     }
-        
-        .steps-brand .title h1 {
+
+        .steps .title h1 {
             font-size: clamp(3rem, 4rem + 4vw, 6rem);     
             color: #111;
             -webkit-text-stroke: 0.5px #fff;  
+            text-align: center;
         }
 
-    .steps-brand .title-1 {
-        max-width: 1400px;
-        margin: 0 auto;
 
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        margin: 10rem ;
-    }
-
-        .steps-brand .title-1 h1 {
-            font-size: clamp(1rem, 2rem + 2vw, 3rem);     
-            color: #111;
-            -webkit-text-stroke: 0.5px #fff;  
-        }
 
 .column {
     display: flex;
@@ -234,7 +222,7 @@ body {
                 -webkit-text-stroke: 0.5px #fff;  
             }
 
-            .content-1 {
+            .content {
                 justify-content: center;
                 align-items: center;
                 margin: 6rem auto 6rem auto; /* space between arrow-down */
@@ -244,12 +232,39 @@ body {
                     justify-content: center;
                     align-items: center;
                     padding: 0 0 3rem 0;
+                    gap: 2rem;
                 }
 
+                    .content p {
+                        text-align: center; 
+                        color: #646464;
+                    }
+
+
+            .content-1 {
+                justify-content: center;
+                align-items: center;
+                margin: 6rem auto 6rem auto; /* space between arrow-down */
+            }
+                
+                .title-content-1 {
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0 0 3rem 0;
+                    gap: 2rem;
+                }
+                
                     .content-1 p {
                         text-align: center; 
                         color: #646464;
                     }
+                
+            .content .subtitle-1 {
+                font-size: clamp(1rem, 2rem + 2vw, 3rem);     
+                color: #111;
+                -webkit-text-stroke: 0.5px #fff;  
+            }           
+
 
                     .white {
                         color: #fff; /* span */
@@ -290,41 +305,21 @@ body {
     }
 
 
-.steps-illustration  {
+.steps  {
     max-width: 1400px;
     margin: 0 auto;
     text-align: center;
 }
 
-.description-illustration {
+.description {
     justify-content: center;
     align-items: center;
-    margin: 10rem auto 10rem auto;
 }
 
-    .content {
-        justify-content: center;
-        align-items: center;
-        margin: 6rem auto 6rem auto; /* space between arrow-down */
-    }
-
-        .title-content-1 {
-            justify-content: center;
-            align-items: center;
-            gap: 2rem;
-            padding: 0 0 3rem 0;
-        }
-
-
-        
-        .content p {
-            text-align: center; 
-            color: #646464;
-        }
-
-
-.steps-about {
-    display:grid;
+.description-brand {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 
