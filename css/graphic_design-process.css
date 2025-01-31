@@ -15,20 +15,11 @@ body {
     color: #fff;
 }
 
-.illustration-section {
-    max-width: 1400px;
-    margin-inline: auto;
-}
-
-.brand-section {
-    max-width: 1400px;
-    margin-inline: auto;
-}
-
 .container {
     max-width: 1400px;
     margin-inline: auto;
 }
+
 
 
 /* navigation */
@@ -118,23 +109,23 @@ body {
 /* process */
 
 
-.illustration-section .process {
+.process {
     max-width: 1400px;
     margin: 0 auto;
 }
 
-    .illustration-section .process .order {
+    .process .order {
         display: flex;
         justify-content: space-between;
         margin: 8rem auto 8rem auto;
     }
 
-.brand-section .process {
+.process-brand {
     max-width: 1400px;
     margin: 0 auto;
 }
 
-    .brand-section .process .order {
+    .process-brand .order {
         display: flex;
         justify-content: flex-start;
         margin: 8rem auto 8rem auto;
