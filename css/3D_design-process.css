@@ -1,6 +1,6 @@
 * {
-    margin: 1rem;
-    padding: 0;
+    margin: 0;
+    padding: 0 0.5rem 0 0.5rem;
     box-sizing: border-box;
     font-family: "Kodchasan", sans-serif;
 
@@ -175,10 +175,11 @@ body {
     }
 
         .steps .title h1 {
-            font-size: clamp(3rem, 4rem + 4vw, 6rem);     
+            font-size: clamp(2rem, 3rem + 3vw, 5rem);     
             color: #111;
             -webkit-text-stroke: 0.5px #fff;  
             background-color: red;
+            align-items: center;
         }
 
         
@@ -223,6 +224,7 @@ body {
                     align-items: center;
                     gap: 2rem;
                     padding: 0 0 3rem 0;
+                    background-color: red;
                 }
                 
                 .content p {
