@@ -178,6 +178,7 @@ body {
             font-size: clamp(3rem, 4rem + 4vw, 6rem);     
             color: #111;
             -webkit-text-stroke: 0.5px #fff;  
+            text-align: center;
         }
 
         

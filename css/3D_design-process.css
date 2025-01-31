@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 1rem;
     padding: 0;
     box-sizing: border-box;
     font-family: "Kodchasan", sans-serif;
@@ -178,6 +178,7 @@ body {
             font-size: clamp(3rem, 4rem + 4vw, 6rem);     
             color: #111;
             -webkit-text-stroke: 0.5px #fff;  
+            background-color: red;
         }
 
         
@@ -313,7 +314,7 @@ footer {
 
 .divider-footer {
     width: 100%;
-    background: #fff;
+    background: #646464;
     height: 0.5px;
     margin: 1rem 0 1rem 0;
 }
@@ -322,20 +323,22 @@ footer .container {
     width: 100%;
     margin: 0 auto 0 auto;
     font-weight: 400;
+
 }
 
     .legal {
         display: flex;
         justify-content: space-between;
         margin: 2rem 0 2rem 0;
-        font-size: 14px;
+        flex-wrap: wrap;
+        gap: 1rem;
+
     }
 
         .terms, 
         .privacy {  
             display: flex;
             color: #646464;
-            font-size: 14px;
             gap: 2rem;
             line-height: 1.6rem;
             text-align: end;
@@ -351,12 +354,11 @@ footer .container {
         .contact-info {  
             display: flex;
             color: #646464;
-            font-size: 14px;
+            font-size: 18px;
             gap: 2rem;
             line-height: 1.6rem;
             cursor: pointer;
             text-align: start;
-
         }
 
             .contact-info span { 
@@ -364,26 +366,31 @@ footer .container {
             }
 
             .contact-info span:hover { 
-                color: #fff;
+                color: #111;
             }
+
+        .footer-social-icons {
+            display: flex;
+            gap: 2rem;
+        }
 
 
     .font-source {
-        font-size: 12px;
         display: flex;
         justify-content: end;
+        font-size: 14px;
+
     }
 
     .font-source a {
         text-decoration: none;
-        color: #666;
+        color: #646464;
 
     }
 
     .font-source a:hover {
         color: #7291FC;
     }
-
 
 
 /* scrollbar */

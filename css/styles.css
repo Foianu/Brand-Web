@@ -201,7 +201,6 @@ main {
 
         .description .container {
             padding: 2rem;
-            font-size: 16px;
         }
 
         .container .social {
@@ -262,7 +261,6 @@ main {
 
     .description .text { 
         padding: 4rem 0 4rem 0;
-        font-size: 18px;
         color: #fff;
     }
 
@@ -332,13 +330,11 @@ main {
             .content {
                 background: #181818;
                 padding: 2rem;
-                font-size: 16px;
                 margin: auto;
             }
 
                 .content p {
-                    color: #646464;
-                    font-size: clamp(0.5rem, 0.7rem + 0.7vw, 1rem);
+                    color: #646464;                    
                 }
 
                 .card {
@@ -362,7 +358,6 @@ main {
                     }
 
                     .list-services {
-                        font-size: 18px;
                         color: #111;
                     }
 
@@ -699,11 +694,6 @@ span {
             padding: 1rem 0 1rem 0;
         }
 
-        .step-3 .text .title-1 h1 {
-            gap: 1rem;
-            color: #fff;
-            font-size: clamp(3rem, 2rem + 2vw, 1rem);
-        }
 
         .title-1 .output {
             color: #fff;
@@ -897,6 +887,7 @@ footer .container {
     .font-source {
         display: flex;
         justify-content: end;
+        font-size: 14px;
     }
 
     .font-source a {
