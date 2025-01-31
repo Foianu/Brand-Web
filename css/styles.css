@@ -273,7 +273,6 @@ main {
 
     .description .text { 
         padding: 4rem 0 4rem 0;
-        font-size: clamp(0.5rem, 0.7rem + 0.7vw, 1rem);
         color: #fff;
     }
 
@@ -857,7 +856,6 @@ footer .container {
         display: flex;
         justify-content: space-between;
         margin: 2rem 0 2rem 0;
-        font-size: 14px;
         flex-wrap: wrap;
         gap: 1rem;
 
@@ -867,7 +865,6 @@ footer .container {
         .privacy {  
             display: flex;
             color: #646464;
-            font-size: 14px;
             gap: 2rem;
             line-height: 1.6rem;
             text-align: end;
@@ -906,7 +903,6 @@ footer .container {
 
 
     .font-source {
-        font-size: 12px;
         display: flex;
         justify-content: end;
     }
