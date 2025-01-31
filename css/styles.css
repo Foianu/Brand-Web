@@ -25,16 +25,6 @@ body {
 }
 
 
-.list-services, 
-.list-specialization,
-.text,
-.list-contact,
-.subtitle p {
-    color: #111;
-}
-
-
-
 
 /* navigation */
 
@@ -204,7 +194,6 @@ main {
             margin: 0 auto;
             
             background: #181818;
-            min-height: 100px;
             font-weight: 300;
             line-height: 1.6rem;
             margin: 4rem auto 10rem auto;
@@ -273,6 +262,7 @@ main {
 
     .description .text { 
         padding: 4rem 0 4rem 0;
+        font-size: 18px;
         color: #fff;
     }
 
@@ -369,6 +359,15 @@ main {
                         display: flex;
                         align-items: center;
                         gap: 1rem;
+                    }
+
+                    .list-services {
+                        font-size: 18px;
+                        color: #111;
+                    }
+
+                    .price {
+                        padding: 2rem 0 2rem 0;
                     }
 
 
@@ -671,13 +670,6 @@ span {
         gap: 2rem;
         margin: 14rem auto 1rem auto;
     }
-    
-
-        .price {
-            color: #7291FC;
-            font-weight: bold;
-            padding: 3rem 0 3rem 0;
-        }
 
         .order {
             display: flex;
@@ -758,7 +750,7 @@ span {
                 justify-content: space-between;
                 flex-wrap: wrap;
                 gap: 1rem;
-    
+                color: #111;
             }
 
                 .list-input-1 {
@@ -880,7 +872,7 @@ footer .container {
         .contact-info {  
             display: flex;
             color: #646464;
-            font-size: 14px;
+            font-size: 18px;
             gap: 2rem;
             line-height: 1.6rem;
             cursor: pointer;
