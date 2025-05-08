@@ -108,7 +108,7 @@ main {
 
 .container-3 {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     flex-wrap: wrap;
     text-align: center;
     gap: 2rem;
@@ -494,33 +494,6 @@ span {
                     font-size: 5rem;
                 }
 
-            .image-4 {
-                width: 100%;
-                max-width: 1400px;
-                min-height: 600px;
-                margin: 0 auto 3rem auto;
-                font-size: 7rem;
-                color: #fff;
-    
-                background: #181818;
-    
-                filter: grayscale(100%);
-                transform: scale(1);
-                transition: .5s ease;
-                border: none;
-                cursor: pointer;
-                }
-    
-                .image-4:hover {
-                    background-image: url("../img/uiux.jpg");
-                    background-repeat: no-repeat, repeat;
-                    background-size: cover;
-                    background-position: center;
-    
-                    filter: none;
-                    transform: scale(1.1);
-                    font-size: 5rem;
-                }
 
 
     /* design-process */
@@ -932,6 +905,3 @@ footer .container {
 ::selection {
     background: #7291FC;
 }
-
-
-/* mobile */

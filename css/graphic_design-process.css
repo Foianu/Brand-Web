@@ -112,30 +112,70 @@ body {
     }
 
 
+    
+        .process-1 .order {
+            display: flex;
+            justify-content: center;
+        }
+    
+
+        .process-1 .order-1 {
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+        }
+        
+
+
+
 /* process */
 
 
-.main-container .process {
+.process {
     max-width: 1400px;
     margin: 0 auto;
 }
 
-.main-container .process .order {
+    .process .order {
         display: flex;
         justify-content: space-between;
         margin: 8rem auto 8rem auto;
     }
 
-.main-container .process-brand {
+    .process-brand {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .process-brand .order {
+            display: flex;
+            justify-content: flex-start;
+            margin: 8rem auto 8rem auto;
+            gap: 2rem;
+        }
+
+.process-1 {
     max-width: 1400px;
     margin: 0 auto;
 }
-
-.main-container .process-brand .order {
+    
+    .process-1 .order-1 {
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
         margin: 8rem auto 8rem auto;
-        gap: 2rem;
+    }
+
+
+    .circle-1 {
+        height: 12rem;
+        width: 16rem;
+        background-color: #e7e7e7;
+        color: #111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: 4rem auto 4rem auto;
     }
 
 
@@ -148,15 +188,26 @@ body {
             padding: 0.5rem 0 1rem 0;
         }
 
+        .contents p {
+            color: #646464;
+            padding: 0.5rem 0 1rem 0;
+        }
+
 
     .btn {
         text-align: center;
-        margin: 3rem 0 3rem 0;
+        margin: 10rem 0 10rem 0;
     }
 
         .btn h1 {
             padding: 0 0 2rem 0;
         }
+
+
+
+
+
+
 
 .gap {
     color: #646464;
@@ -217,6 +268,12 @@ body {
                 margin: 6rem auto 6rem auto; /* space between arrow-down */
             }
 
+            .content .subtitle-1 {
+                font-size: clamp(1rem, 2rem + 2vw, 3rem);     
+                color: #111;
+                -webkit-text-stroke: 0.5px #fff;  
+            }   
+
                 .title-content {
                     justify-content: center;
                     align-items: center;
@@ -227,6 +284,10 @@ body {
                     .content p {
                         text-align: center; 
                         color: #646464;
+                    }
+
+                    .content img {
+                        padding: 4rem 0 0 0;
                     }
 
 
@@ -247,12 +308,6 @@ body {
                         text-align: center; 
                         color: #646464;
                     }
-                
-            .content .subtitle-1 {
-                font-size: clamp(1rem, 2rem + 2vw, 3rem);     
-                color: #111;
-                -webkit-text-stroke: 0.5px #fff;  
-            }           
 
 
                     .white {
@@ -263,35 +318,6 @@ body {
                         color: #646464;
                         padding: 0 1rem 0 1rem;
                     }
-
-
-.steps-illustration .title {
-        max-width: 1400px;
-        margin: 0 auto;
-
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        margin: 20rem auto 10rem auto;
-}
-
-    .steps-illustration .title h1 {
-        font-size: clamp(3rem, 4rem + 4vw, 6rem);     
-        color: #111;
-        -webkit-text-stroke: 0.5px #fff;  
-    }
-
-
-    .steps-1 .title {
-        max-width: 1400px;
-        margin: 0 auto; 
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 16rem auto 3rem auto;
-        gap: 2rem;
-    }
 
 
 .steps  {
@@ -312,12 +338,10 @@ body {
 }
 
 .description-brand {
-
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
-
 
 
                     
@@ -406,7 +430,27 @@ body {
             transform: scale(1.1);
         }
 
-
+        .image-3 {
+            width: 100%;
+            max-width: 1400px;
+            min-height: 800px;
+            margin: 3rem auto 3rem auto;
+        
+            background-image: url("../img/uiux.jpg");
+            background-repeat: no-repeat, repeat;
+            background-size: cover;
+            background-position: center;
+        
+            transform: scale(1);
+            transition: .5s ease;
+            border: none;
+            cursor: pointer;
+        }
+        
+            .image-3:hover {
+                filter: grayscale(100%);
+                transform: scale(1.1);
+            }
 
 
 /* footer */

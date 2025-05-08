@@ -118,19 +118,6 @@ body {
     }
 
 
-    .circle-1 {
-        height: 12rem;
-        width: 16rem;
-        background-color: #e7e7e7;
-        color: #111;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        margin: 4rem auto 4rem auto;
-    }
-
     .contents {
         text-align: center; 
     }
